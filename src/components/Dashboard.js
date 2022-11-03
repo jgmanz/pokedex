@@ -106,10 +106,6 @@ export const Dashboard = () => {
                 </Container>
             </AppBar>
             <Container>
-                <Typography variant='h3'>
-                    Pokemon pagination
-                </Typography>
-
                 <Box padding={2}>
                     <Pagination onChange={(e, v)=>  setPageNum(v-1)} style={{ display: 'flex', justifyContent: 'center' }} count={10} color="primary" />
                 </Box>
