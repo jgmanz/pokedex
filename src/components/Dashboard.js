@@ -7,8 +7,7 @@ import { PokemonList } from './PokemonList';
 
 
 export const Dashboard = () => {
-    const pages = ['Dashboard', 'Agua'];
-    const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
+    const pages = ['Dashboard'];
     const [pageNum, setPageNum] = useState(0);
 
     const [anchorElNav, setAnchorElNav] = React.useState(null);
